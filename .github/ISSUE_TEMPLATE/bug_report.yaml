@@ -8,7 +8,7 @@ body:
       label: Quasar version
       placeholder: 1.4.0 or commit-id
     validations:
-      required: true
+      required: True
   - type: input
     attributes:
       label: Server installed .NET version
@@ -23,7 +23,7 @@ body:
         - Windows 7/Server 2008 R2
         - Other
     validations:
-      required: true
+      required: True
   - type: input
     attributes:
       label: Client installed .NET version
@@ -38,7 +38,7 @@ body:
         - Windows 7/Server 2008 R2
         - Other
     validations:
-      required: true
+      required: True
   - type: dropdown
     attributes:
       label: Build configuration
@@ -46,31 +46,31 @@ body:
         - Debug
         - Release
     validations:
-      required: true
+      required: True
   - type: textarea
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
     validations:
-      required: true
+      required: True
   - type: textarea
     attributes:
       label: How to reproduce
       description: The steps on how to reproduce the bug.
     validations:
-      required: true
+      required: True
   - type: textarea
     attributes:
       label: Expected behavior
       description: Describe the result that you expect to get after performing the steps.
     validations:
-      required: true
+      required: True
   - type: textarea
     attributes:
       label: Actual behavior
       description: Describe the actual behavior that you observed after performing the steps.
     validations:
-      required: true
+      required: True
   - type: textarea
     attributes:
       label: Additional context
